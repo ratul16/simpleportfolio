@@ -114,12 +114,12 @@ a {
 h3 {
   font-size: 2.6vw;
   line-height: 1.2;
-  margin-bottom: 8vh;
+  margin-bottom: 20px;
 }
 
 h4 {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 13px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -139,11 +139,11 @@ h4 {
   position: relative;
   text-align: left;
   font-size: 8vw;
-  font-family: 'Lato', sans-serif;
-  color: rgb(129, 2, 2);
+  font-family: 'Consolas', sans-serif;
+  color: #b33939;
   letter-spacing: -0.38vw;
-  line-height: 0.98;
-  min-height: 88vh;
+  line-height: 0.80;
+  min-height: 55vh; /* typing animation hight*/
 }
 
 .jstext {

@@ -21,7 +21,7 @@ var lengthArray = sections.length;
 var forward = true;
 var beginning = "->";
 var currentPart = "";
-var interval = 50;
+var interval = 60;
 var opening = false;
 
 
@@ -104,17 +104,17 @@ function writing(text){
 function changebackground(){
 	var body = $("body");
     body.css({ // looping background
-    	"background" : "rgb(33,33,33)",
+    	"background" : "rgb(47, 54, 64)"
     });
     $(".fixedBg").css({ // background on hover
-    	"background" : "rgb(216,67,21)",
-    	"color" : "rgb(118,118,118)"
+    	"background" : "rgb(47, 54, 64)",
+    	"color" : "rgb(47, 54, 64)"
     });
     /*$(".loopCol").css({
     	"background" : "hsl(" + h + "," + s + "%,"+ l + "%)"
     });*/
 	$(".coloredHover").css({ // color links on hover
-    	"color" : "rgb(118,118,118)"
+    	"color" : "rgb(47, 54, 64)"
     });
 
 }
@@ -142,7 +142,7 @@ $(document).ready(function(){
 	/*--------------------
 		TYPING 
 	----------------------*/
-	var firstTimer = 2000;
+	var firstTimer = 3000;
 	var text = $(".jstext");
 	setTimeout(function(){
 		writing(text);

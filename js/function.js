@@ -3,13 +3,13 @@
     GLOBALS 
 -------------------------*/
 var sections = [
-		{	sentence: " Hello World",
+		{	sentence: " if life == good :",
 		},
-		{	sentence: " Code is Life",
+		{	sentence: " print('Smile :D')",
 		},
-		{	sentence: " Code is Happiness",
+		{	sentence: " else : ",
 		},
-		{	sentence: " Code is World",
+		{	sentence: " print('Smile even more xD')",
 		},
 		
 	];
@@ -21,7 +21,7 @@ var lengthArray = sections.length;
 var forward = true;
 var beginning = "->";
 var currentPart = "";
-var interval = 60;
+var interval = 50;
 var opening = false;
 
 
@@ -43,7 +43,7 @@ function writing(text){
 				k++;
 				writing(text);			
 			}else if(k === (beginning.length)){
-				currentPart += " ";
+				currentPart += " Hello World !! <br> <br> "; //write anything to add in front
 				text.html(currentPart);
 				opening = true;
 				writing(text);
@@ -104,11 +104,7 @@ function writing(text){
 function changebackground(){
 	var body = $("body");
     body.css({ // looping background
-    	"background" : "rgb(47, 54, 64)"
-    });
-    $(".fixedBg").css({ // background on hover
-    	"background" : "rgb(47, 54, 64)",
-    	"color" : "rgb(47, 54, 64)"
+    	"background" : "rgb(23, 32, 42)"
     });
     /*$(".loopCol").css({
     	"background" : "hsl(" + h + "," + s + "%,"+ l + "%)"
@@ -142,7 +138,7 @@ $(document).ready(function(){
 	/*--------------------
 		TYPING 
 	----------------------*/
-	var firstTimer = 3000;
+	var firstTimer = 5000;
 	var text = $(".jstext");
 	setTimeout(function(){
 		writing(text);

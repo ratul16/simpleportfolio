@@ -108,17 +108,25 @@ body, html {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #FDFEFE;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #FDFEFE ;
 }
 
 h3 {
-  font-size: 2.6vw;
+  font-size: 20px;
   line-height: 1.2;
   margin-bottom: 20px;
+  color: #FDFEFE;
 }
 
 h4 {
-  color: rgba(255, 255, 255, 0.75);
+  color:#FDFEFE ;
   font-size: 20px;
   text-transform: uppercase;
 }
@@ -138,12 +146,12 @@ h4 {
 .textContainer {
   position: relative;
   text-align: left;
-  font-size: 8vw;
+  font-size: 80px;
   font-family: 'Consolas', sans-serif;
   color: #b33939;
   letter-spacing: -0.38vw;
-  line-height: 0.80;
-  min-height: 55vh; /* typing animation hight*/
+  line-height: 0.98;
+  min-height: 70vh; /* typing animation hight*/
 }
 
 .jstext {

@@ -138,7 +138,7 @@ $(document).ready(function(){
 	/*--------------------
 		TYPING 
 	----------------------*/
-	var firstTimer = 5000;
+	var firstTimer = 3000;
 	var text = $(".jstext");
 	setTimeout(function(){
 		writing(text);

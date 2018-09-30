@@ -106,7 +106,7 @@ tr:last-child td:last-child {
 	color:#333;
 	display:inline-block;
 	font-family:"Consolar", sans-serif;
-	font-size:14px;
+	font-size:12px;
   max-width: 200px;
 	text-align:center;
 	height: 2.5em;
@@ -126,11 +126,6 @@ tr:last-child td:last-child {
 
 
 /* github logo */
-
-.github{
-  width: 80px;
-  height: 80px;
-}
 
 
 /* Social icon style*/

@@ -10,6 +10,130 @@ body, html {
   transition: background 20s linear;
 }
 
+/* Table*/
+
+table {
+  border: .5px solid #2d3436;
+  margin: 0 ;
+  padding: 5px/5px;
+  width: 100%;
+  table-layout: fixed;
+  font-family: 'Consolas', sans-serif;
+  color: #FDFEFE;
+}
+
+table tr {
+  background-color:#485460;
+  padding: 1em;
+  border: 1px solid #333;
+}
+
+table td {
+  padding: 1em;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  table {
+    border: 0;
+  }
+
+  table tr {
+    border-bottom: 3px solid #FDFEFE;
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+tr:hover td {
+  background:#333;
+  color:#FFFFFF;
+  border-top: 1px solid #7B241C;
+  border-bottom: 1px solid#7B241C;
+  
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background:#808e9b ;
+}
+
+tr:nth-child(odd):hover td {
+  background:#333;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+/* button */
+.btn{
+	background-color:#2ECC71;
+	border-radius:5px/5px;
+	color:#333;
+	display:inline-block;
+	font-family:"Consolar", sans-serif;
+	font-size:14px;
+  max-width: 200px;
+	text-align:center;
+	height: 2.5em;
+	text-decoration:none;
+	border:none;
+	cursor: pointer;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn:hover{
+	background-color:#27AE60;
+}
+
+
+/* github logo */
+
+.github{
+  width: 80px;
+  height: 80px;
+}
+
+
+/* Social icon style*/
 
 .social {
   text-align: center;
@@ -57,14 +181,6 @@ body, html {
   color: white;
 }
 
-.social .link.twitter {
-  background-color: #00ACEE;
-  color: white;
-}
-.social .link.youtube {
-  background-color: #c4302b;
-  color: white;
-}
 .social .link.linkedin {
   background-color: #0e76a8;
   color: white;
@@ -111,7 +227,7 @@ a {
   color: #FDFEFE;
 }
 
-h2 {
+h2{
   font-size: 30px;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -119,7 +235,6 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
   line-height: 1.2;
   margin-bottom: 20px;
   color: #FDFEFE;
@@ -127,8 +242,12 @@ h3 {
 
 h4 {
   color:#FDFEFE ;
-  font-size: 20px;
   text-transform: uppercase;
+}
+
+#text_info {
+  color: #b33939;
+
 }
 
 .container {

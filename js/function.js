@@ -104,7 +104,7 @@ function writing(text){
 function changebackground(){
 	var body = $("body");
     body.css({ // looping background
-    	"background" : "rgb(23, 32, 42)"
+    	"background" : "rgb(20, 20, 20)"
     });
     /*$(".loopCol").css({
     	"background" : "hsl(" + h + "," + s + "%,"+ l + "%)"
@@ -187,10 +187,6 @@ $(document).ready(function($) {
 		}
 	);
 });
-
-
-
-
 
 
 

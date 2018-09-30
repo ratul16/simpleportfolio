@@ -24,7 +24,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* **Sabbir Molla** - Helped with the Structure Profile link : (https://github.com/SabbirMollah)
+* **Sabbir Molla** - Helped with the Structure of the website. Profile link : (https://github.com/SabbirMollah)
 
 
 

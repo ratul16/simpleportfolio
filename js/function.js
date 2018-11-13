@@ -3,9 +3,21 @@
     GLOBALS 
 -------------------------*/
 var sections = [
-		{	sentence: " if life == good :",
+		{	sentence: " This is Ratul ",
 		},
-		{	sentence: " print('Smile :D')",
+		{	sentence: " Love to Code <3 ",
+		},
+		{	sentence: " Work on projects ^_^ ",
+		},
+		{	sentence: " Explore new fields O_O ",
+		},
+		{	sentence: " A team guy :D ",
+		},
+		{	sentence: " ----> Life Code <---- ",
+		},
+		{	sentence: " if life == good : ",
+		},
+		{	sentence: " print('Smile :D') ",
 		},
 		{	sentence: " else : ",
 		},

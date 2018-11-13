@@ -241,7 +241,7 @@ h4 {
 }
 
 #text_info {
-  color: #b33939;
+  color: #E53935;
 
 }
 
@@ -262,7 +262,7 @@ h4 {
   text-align: left;
   font-size: 80px;
   font-family: 'Consolas', sans-serif;
-  color: #b33939;
+  color: #E53935;
   letter-spacing: -0.38vw;
   line-height: 0.98;
   min-height: 70vh; /* typing animation hight*/

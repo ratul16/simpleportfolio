@@ -1,0 +1,82 @@
+@import './include-media';
+
+
+@include media('<=576px') {
+
+    .mobile-img{
+        display: none;
+    }
+
+
+    .landing{
+        height: 650px;
+        color: #fff;
+
+
+        .info{
+            margin-top: 50%;
+            padding-left: 5%;
+            h2 {
+                font-size: 3.5em;
+                color:#fff;
+            }
+            h4{
+                font-size: 2em;
+            }
+        }    
+    }
+
+    .about{
+
+        margin-bottom: 15%;
+
+        .profile{
+            margin: 0 auto;
+            margin-bottom: 10%;
+
+            img{
+                width:450px
+            }
+        }
+
+    }
+
+
+
+    .details{
+        padding: 10% 0%;
+        margin-bottom: 10%;
+
+        #skills {
+            .part{
+                margin-bottom: 15px;
+            }   
+        }
+    }
+
+    .publication{
+        margin-bottom: 15%;
+    }
+
+
+
+    .footer{
+        min-height: 150px;
+        .social{
+            display: flex;
+            justify-content: center;
+            padding: 15px 0px 20px;
+        }
+    }
+
+}
+
+
+
+
+// @include media('<=tablet') {
+
+//     .mobile-img{
+//         display: none;
+//     }
+// }

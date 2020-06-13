@@ -1,18 +1,17 @@
-# Simple Portfolio Website
-hosted now : ratul16.bitbucket.io
-
 ## Getting Started
 
-The website was built using HTML,CSS and JAVASCRIPT. You can easily run it on your own local machine.
+The website was built using HTML,SCSS and JAVASCRIPT. You can easily run it on your own local machine.
 
 
 ### Installing
 
 * Clone repo using (git clone https://github.com/ratul16/simpleportfolio.git)
-* install vscode (https://code.visualstudio.com/)
-* Open with vscode and start working
+* Install dependencies `npm install`
+* Open with your favorite code editor and start working
+* To run dev server `npm run dev`
+* To build up and minify your project `npm run build` and let parcel do all the work
 
-## Built With
+#### Built With
 
 * HTML - Used for web structure
 * CSS - Stylesheets
@@ -21,13 +20,6 @@ The website was built using HTML,CSS and JAVASCRIPT. You can easily run it on yo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* **Sabbir Molla** - Helped with the Structure of the website. Profile : (https://github.com/SabbirMollah)
-
-* Original Dev : **Mifta Sintaha**
-
 
 
 

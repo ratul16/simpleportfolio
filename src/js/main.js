@@ -1,7 +1,25 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 //githun repo fetch
 
 $(document).ready(function () {
+
+    AOS.init({
+        duration:1000,
+        offset:400,
+        anchorPlacement: 'top-bottom',
+        mirror: true,
+        easing: 'ease-in-out',
+    });
+
+
+
+
+
+
+
 
     var myDiv = $('.substr');
     myDiv.text(myDiv.text().substring(0, 200))
